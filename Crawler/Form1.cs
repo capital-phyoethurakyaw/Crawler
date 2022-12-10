@@ -102,7 +102,7 @@ namespace Crawler
         {
             var g = driverC.FindElement(By.CssSelector("div[class*='IntersectBox'] img"));
             var ele = driverC.FindElement(By.CssSelector("div[class*='IntersectBox'] img"));
-
+             
             // var ele= driverC.FindElement(By.CssSelector("div:contains('showPhoneButton')"));
              
             var d = ele.GetAttribute("src").Trim();
