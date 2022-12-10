@@ -104,7 +104,7 @@ namespace Crawler
             var ele = driverC.FindElement(By.CssSelector("div[class*='IntersectBox'] img"));
 
             // var ele= driverC.FindElement(By.CssSelector("div:contains('showPhoneButton')"));
-
+             
             var d = ele.GetAttribute("src").Trim();
             if (d == "https://static.chotot.com/storage/chotot-icons/svg/white-phone.svg")
             {
